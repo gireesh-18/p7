@@ -1,0 +1,106 @@
+/* Navigation bar */
+
+#logo img{
+   align-items: center;
+   margin-left: -163px;
+   margin-top: 24px;
+}
+
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul {
+    margin-top: -12px;
+    margin-left: -190px;
+    margin-bottom: 20px;
+}
+
+/* Home */
+
+#home h1{
+    padding-top: 165px;
+    font-size: 2.6rem;
+    margin-right: -100px;
+}
+
+#home::before{
+    width: 112%;
+}
+
+#home p{
+    padding-bottom: 32px;
+    margin-right: -100px;
+    
+}
+
+.btn{
+    margin-right: -30px;
+}
+/* services  */ 
+
+#services{
+    flex-direction: column;
+    margin-right: -80px;
+}
+
+#service-container h1{
+    justify-items: center;
+    text-align: center;
+    margin-right: -65px;
+    margin-top: 55px;
+     margin-bottom: -30px;
+}
+
+#services .box{
+    margin: 15px;
+    width: 87%;
+}
+
+/* Partners */
+
+.partner-items{
+    padding-top: 10px;
+}
+
+.partners{
+    justify-content: space-around;
+    margin-top: 10px;
+
+    width: 100%;
+}
+
+#Partners-section h1{
+    margin-right: -80px;
+}
+
+.partner-items img{
+    height: 150px;
+    margin: -25px;
+    margin-top: 8px;
+
+}
+
+#Partners-section::before{
+    width: 140%;
+}
+
+#zomato{
+    margin-right: 50px;
+    margin-left: 140px;
+    height: 140px;
+}
+
+/* Contact us */
+
+#contact-section::before{
+    width: 107%;
+}
+
+#contact-section h1{ 
+margin-right: -60px;
+}
+
+.contact-box{
+    margin-right: -60px;
+}
